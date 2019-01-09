@@ -1,0 +1,19 @@
+sudo: false
+language: go
+git:
+    depth: 1
+install: go get -v github.com/gohugoio/hugo
+script:
+    ‐ hugo
+deploy:
+    provider: pages
+    skip_cleanup: true
+    github_token: $GITHUB_TOKEN
+    on:
+        branch: master
+    local_dir: public
+    repo: letianxhz/letianxhz.github.io
+    fqdn: <custom-domain-if-needed>
+    target_branch: master
+    email: xuhaizong@126.com
+    name: letianxhz
