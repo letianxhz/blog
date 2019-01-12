@@ -16,7 +16,7 @@
 baseURL = "https://letianxhz.github.io"
 languageCode = "en-us"
 defaultContentLanguage = "en-us"
-title = "Hugo tranquilpeak theme"
+title = "letianxhzs blog"
 theme = "hugo-tranquilpeak-theme"
 disqusShortname = "hugo-tranquilpeak-theme"
 # googleAnalytics = "UA-123-45"
@@ -33,9 +33,9 @@ canonifyurls = true
 
 [author]
   name = "letianxhz"
-  bio = "Super bio with markdown support **COOL**"
-  job = "Your job title"
-  location = "France"
+  bio = "一个小小的改变，往往会引起意料不到的效果"
+  job = ""
+  location = "China"
   # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
   gravatarEmail = "xuhaizong1991@gmail.com"
   # Your profile picture

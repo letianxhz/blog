@@ -1,22 +1,18 @@
 ---
-layout:     post
 title:      "skynet 学习笔记 - 消息队列的实现机制"
-subtitle:   "skynet服务器架构学习"
-description: "一些外部的第三方系统可能需要访问系统内部的微服务。例如在网上商店的例子中，外部的推荐服务可能需要接入系统，以获取商店的商品目录信息。相对于内部服务之间的访问而言，外部系统的访问需要进行严格的安全控制。"
 date:     2019-01-11
-author:   ledis
-image: "https://img.zhaohuabing.com/in-post/istio-traffic-shifting/crossroads.png"
-published: true
+categories:
+  - skynet
 tags:
-     - Skynet
-URL: "/2019/01/11/istio-traffic-shifting/"
-categories: ["blog"]
+  - skynet
+thumbnailImagePosition: left
+thumbnailImage: //d1u9biwaxjngwg.cloudfront.net/highlighted-code-showcase/peak-140.jpg
 ---
-
-## 介绍
 
 skynet是一个基于C跟lua的开源服务端并发框架，实现了Actor模型，
 gate是模板lualib/snax/gateserver.lua使用范例，系统自带的，位于service/gate.lua，是一个实现完整的网关服务器。
+
+<!--more-->
 
 watchdog和agent都是在应用层写的脚本，可以参考源码中example目录下的watchdog.lua和agent.lua
 
