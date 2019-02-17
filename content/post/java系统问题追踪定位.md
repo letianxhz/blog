@@ -1,7 +1,18 @@
-# java系统问题追踪定位
+---
+title:      "java系统问题追踪定位技巧"
+date:     2019-02-17
+categories:
+  - java
+tags:
+  - java
+thumbnailImagePosition: left
+thumbnailImage: //d1u9biwaxjngwg.cloudfront.net/highlighted-code-showcase/peak-140.jpg
 
-之前组内一位大佬分享了一些关于系统性能优化方面的干货，这里我将它整理成文并且加入自己平时常用的一些工具和技巧。由于关于系统性能优化涉及的内容非常多，我会分几篇文章来分享。这次分享下`定位系统层面问题`的常用方法。
+---
 
+
+`定位系统层面问题`的常用方法。
+<!--more-->
 ## 系统性能定义
 
 - Throughout 吞吐量 （系统每秒钟可以处理的请求数）
